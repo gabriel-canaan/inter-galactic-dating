@@ -22,5 +22,17 @@
   "bugs": {
     "url": "https://github.com/gabriel-canaan/inter-galactic-dating/issues"
   },
-  "homepage": "https://github.com/gabriel-canaan/inter-galactic-dating#readme"
+  "homepage": "https://github.com/gabriel-canaan/inter-galactic-dating#readme",
+  "devDependencies": {
+    "cheerio": "^0.22.0",
+    "nodemon": "^1.11.0",
+    "supertest": "^3.0.0",
+    "tap-diff": "^0.1.1",
+    "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0"
+  }
 }
