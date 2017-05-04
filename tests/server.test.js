@@ -12,7 +12,7 @@ test('Home Page', (t) => {
     .expect(200)
     .end((err, res) => {
       $ = cheerio.load(res.text)
-      t.equal($('h1').text(), 'Star Wars', 'h1=Star Wars')
+      t.equal($('h1').text(), 'Sabr', 'Header 1 is equal to Sabr)
       t.end()
     })
 })
