@@ -28,6 +28,10 @@ router.post('/people/edit/:id', (req, res) => {
   // Needs to redirect back to /people/:id
 })
 
+router.post('/people/add', (req, res) => {
+  res.render('add')
+})
+
 
 
 
