@@ -6,7 +6,7 @@ var bodyParser = require('body-parser')
 // var spacePeople = require('./data.json')
 
 router.get('/', (req, res) => {
-  res.send('<h1>Star Wars</h1>')
+  res.render('home')
 })
 
 
