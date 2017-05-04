@@ -1,7 +1,7 @@
 var express = require('express')
 var router = express.Router()
 var bodyParser = require('body-parser')
-
+var data = require('./data.json')
 
 var people = require('./data.json')
 
@@ -18,6 +18,7 @@ router.get('/people/:id', (req, res) => {
   res.render('show', person)
 })
 
+<<<<<<< HEAD
 router.get('/people/edit/:id', (req, res) => {
   person = findPeople(req.params.id)
   res.render('edit', person)
@@ -35,4 +36,7 @@ router.post('/people/add', (req, res) => {
 
 
 
+=======
+console.log(typeof data);
+>>>>>>> origin/data
 module.exports = router
