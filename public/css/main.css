@@ -70,3 +70,57 @@ p {
   align-items: center;
   font-family: 'Roboto', sans-serif;
 }
+
+/*possible media queries
+@media only screen and (max-width : 900px) {
+
+ header {
+   position: absolute;
+ }
+
+ #menu-icon {
+   display:inline-block;
+ }
+
+ nav ul, nav:active ul {
+   display: none;
+   position: absolute;
+   padding: 10px;
+   background: #5a4d4c;
+   margin-top: 40px;
+   right: 5px;
+   width: 9em;
+ }
+
+ nav:hover ul {
+   display: block;
+   border: 2px solid #8ED3F4;
+ }
+
+ nav li {
+   text-align: center;
+   width: 100%;
+   padding: 5px 0px;
+   margin: 0;
+ }
+
+ nav ul li a {
+     margin-left: 8px;
+ }
+
+ .banner {
+     height: 25em;
+     width: 100%;
+ }
+
+ .banner-content {
+   font-size: 3rem;
+   animation: none;
+   white-space: inherit;
+ }
+
+ .cursor{
+   display: none;
+ }
+
+}*/
