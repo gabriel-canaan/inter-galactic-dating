@@ -1,0 +1,26 @@
+{
+  "name": "sabr",
+  "version": "1.0.0",
+  "description": "Star Wars Dating App",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "tape tests/**/*.test.js | tap-diff",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriel-canaan/inter-galactic-dating.git"
+  },
+  "keywords": [
+    "awesome"
+  ],
+  "author": "GAN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabriel-canaan/inter-galactic-dating/issues"
+  },
+  "homepage": "https://github.com/gabriel-canaan/inter-galactic-dating#readme"
+}
