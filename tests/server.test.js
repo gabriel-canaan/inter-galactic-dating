@@ -41,21 +41,30 @@ test('Edit Page', (t) => {
       t.end()
     })
 })
+// Commented out till we have data
+// test('Edit post page', (t) => {
+//   request(app)
+//     .post('/people/edit/3')
+//     .send({name: 'Darth Vader'})
+//     .end((err, res) => {
+//       t.equal(res.status, 302, 'returns a redirect')
+//       t.equal(res.headers.location, '/people/3', 'redirects to a show page for the person')
+//       readPeopleFile((people) => {
+//         t.equal(people[0].name, 'Darth Vader', 'updates a file')
+//       })
+//     })
+// })
 
-test('Edit post page', (t) => {
+test('Help Page', (t) => {
   request(app)
-    .post('/people/edit/3')
-    .send({name: 'Darth Vader'})
+    .get('/help')
+    .expect(200)
     .end((err, res) => {
-      t.equal(res.status, 302, 'returns a redirect')
-      t.equal(res.headers.location, '/people/3', 'redirects to a show page for the person')
-      readPeopleFile((people) => {
-        t.equal(people[0].name, 'Darth Vader', 'updates a file')
-      })
+      $ = cheerio.load(res.text)
+      t.equals($('h2').text(), 'Welcome Padawan', 'Header 2 is equal to our welcome message')
+      t.end()
     })
 })
-
-// test('Help Page', (t))
 
 function readPeopleFile(callback) {
   fs.readFile(__dirname + '/../data.json', 'utf8', (err, data) => {
