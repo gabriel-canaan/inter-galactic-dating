@@ -55,6 +55,8 @@ test('Edit post page', (t) => {
     })
 })
 
+// test('Help Page', (t))
+
 function readPeopleFile(callback) {
   fs.readFile(__dirname + '/../data.json', 'utf8', (err, data) => {
     callback(JSON.parse(data))
