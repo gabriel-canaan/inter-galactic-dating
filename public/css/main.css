@@ -12,6 +12,17 @@ body {
   font-family: 'Spirax', cursive; Star Wars text
 }
 
+/*how to get font to work?
+
+p {
+    font-size: 12px;
+}
+
+@font-face {
+    font-family: "Star Wars";
+    src: url('fonts/starwars.ttf');
+}*/
+
 .container {
   display: flex;
   flex-wrap: wrap;
