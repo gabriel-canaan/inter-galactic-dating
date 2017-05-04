@@ -18,7 +18,6 @@ router.get('/people/:id', (req, res) => {
   res.render('show', person)
 })
 
-<<<<<<< HEAD
 router.get('/people/edit/:id', (req, res) => {
   person = findPeople(req.params.id)
   res.render('edit', person)
@@ -33,10 +32,4 @@ router.post('/people/add', (req, res) => {
   res.render('add')
 })
 
-
-
-
-=======
-console.log(typeof data);
->>>>>>> origin/data
 module.exports = router
