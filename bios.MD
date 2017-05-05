@@ -1,12 +1,3 @@
-##
-
-Name:
-Lightsaber colour:
-Planet:
-Likes:
-Dislikes:
-Looking for:
-Quote:
 
 Name: C3-PO
 Planet:
