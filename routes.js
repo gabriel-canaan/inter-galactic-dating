@@ -4,18 +4,20 @@ function createRouter(people) {
   var router = express.Router()
 
   function findPeople(id) {
-    return people.find((person) => id == people.id)
+    return people.find(function(person) {
+      return id == person.id
+    })
   }
 
 
 
   router.get('/', (req, res) => {
-    res.render('home')
+    res.render('home', {people})
   })
 
   router.get('/people/:id', (req, res) => {
     person = findPeople(req.params.id)
-    res.render('show', person)
+    res.render('profile', person)
   })
 
   router.get('/people/edit/:id', (req, res) => {

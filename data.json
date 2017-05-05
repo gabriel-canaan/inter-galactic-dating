@@ -2,7 +2,7 @@
   {
     "id":1,
     "name":"Han Solo",
-    "Lighsaber":"Ancient weapons are no matcher for a good blaster at your side, kid.",
+    "lightSaber":"Ancient weapons are no matcher for a good blaster at your side, kid.",
     "image":"/images/han.jpg",
     "likes":"Money.",
     "dislikes":"Carbonite.",
@@ -15,7 +15,7 @@
   {
     "id":2,
     "name":"Yoda",
-    "Lighsaber":"Green",
+    "lightSaber":"Green",
     "image":"/images/yoda.jpg",
     "likes":"Odd looking food.",
     "dislikes":"The dark side.",
@@ -28,7 +28,7 @@
   {
     "id":3,
     "name":"Anakin Skywalker",
-    "Lighsaber":"Blue",
+    "lightSaber":"Blue",
     "image":"/images/anakin.jpg",
     "likes":"Padme.",
     "dislikes":"Younglings.",
@@ -41,7 +41,7 @@
   {
     "id":4,
     "name":"Luke Skywalker",
-    "Lighsaber":"Blue",
+    "lightSaber":"Blue",
     "image":"/images/luke.jpg",
     "likes":"",
     "dislikes":".",
@@ -54,7 +54,7 @@
   {
     "id":5,
     "name":"Leia",
-    "Lighsaber":"Not for me.",
+    "lightSaber":"Not for me.",
     "image":"/images/leia.jpg",
     "likes":"",
     "dislikes":".",
@@ -67,8 +67,8 @@
   {
     "id":6,
     "name":"Jyn Erso",
-    "Lighsaber":"Blue",
-    "image":"/images/anakin.jpg",
+    "lightSaber":"Blue",
+    "image":"/images/jyn.jpg",
     "likes":".",
     "dislikes":"Orson Krennic.",
     "lookingFor":"R.",
@@ -80,7 +80,7 @@
   {
     "id":7,
     "name":"Rey",
-    "Lighsaber":"Blue",
+    "lightSaber":"Blue",
     "image":"/images/rey.jpg",
     "likes":"BB-8.",
     "dislikes":"Kylo Ren.",
@@ -93,8 +93,8 @@
   {
     "id":8,
     "name":"Padme Amidala",
-    "Lighsaber":"Nope",
-    "image":"/images/padme.jpg",
+    "lightSaber":"Nope",
+    "image":"/images/padme.jpeg",
     "likes":"Body doubles.",
     "dislikes":"Younglings.",
     "lookingFor":"Anakin.",

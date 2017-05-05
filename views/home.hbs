@@ -4,12 +4,7 @@
       {{> header}}
     </div>
     <div class="container">
-      {{> person}}
+      {{#each people}}
+        {{> person}}
+      {{/each}}
     </div>
-
-
-    <!-- {{#if people}} -->
-    {{> header }}
-    {{> profile }}
-    {{> footer}}
-    <!-- {{/if}} -->
