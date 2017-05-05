@@ -1,11 +1,18 @@
-
+@font-face {
+   font-family: Starjedi;
+   src: url(/Starjedi.ttf);
+   /*font-weight:400;*/
+}
 
 body {
   background-image: url("background.jpg");
   font-family: 'Spirax', cursive; Star Wars text
 }
 
-
+.logo {
+  font-family: Starjedi;
+  font-size: 64px;
+}
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -18,6 +25,16 @@ body {
     align-content: center;
     font-size: 80px;
     color: white;
+}
+
+.form-item {
+  color: white;
+}
+.input {
+  color: black;
+}
+.value {
+  color: black;
 }
 
 .list {
@@ -36,11 +53,15 @@ body {
 
 }
 
-.caption{
-
+.caption a {
+  color: black;
+  font-family: Starjedi;
+  text-align: justify;
 }
 
-
+.thumbnail {
+  height: 350px;
+}
 
 .profile {
   border-radius: 50%;
@@ -48,6 +69,7 @@ body {
   width: 230px;
   height: 230px;
 }
+
 
 .title {
   text-align: center;
