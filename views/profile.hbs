@@ -1,6 +1,6 @@
-  <h1>{{name}}</h1>
-  <img src="{{image}}"/>
-  <ul>
+  <h1 class='name'>{{name}}</h1>
+  <img class='profile' src="{{image}}"/>
+  <ul class='list'>
       <li>Light Saber: {{lightSaber}}</li>
       <li>Likes: {{likes}}</li>
       <li>Dislikes: {{dislikes}}</li>
@@ -8,3 +8,13 @@
       <li>Planet: {{planet}}</li>
       <li>Quote: {{quote}}</li>
   </ul>
+  <div class="col-xs-12 col-sm-2 col2">
+      <ul class="nav nav-pills">
+          <li class="active"><a href="/">Home</a></li>
+      </ul>
+  </div>
+  <div class="col-xs-12 col-sm-2 col2">
+      <ul class="nav nav-pills">
+          <li class="active"><a href="/people/edit/{{id}}">edit</a></li>
+      </ul>
+  </div>
