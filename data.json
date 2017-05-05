@@ -1,43 +1,82 @@
-  [
-    {
-      "id":1,
-      "name":"Fido",
-      "owner":"Person",
-      "image":"/images/puppy1.jpg",
-      "breed":"Labrador"
-    },
-    {
-      "id":2,
-      "name":"Fido Dido",
-      "owner":"Princess Carol",
-      "image":"/images/puppy2.jpg",
-      "breed":"Labrador"
-    },
-    {
-      "id":3,
-      "name":"Magnum","owner":
-      "Esther","image":"/images/puppy3.jpg",
-      "breed":"Rottweiler"
-    },
-    {
-      "id":4,
-      "name":"Fido",
-      "breed":"Labrador",
-      "owner":"Person",
-      "image":"/images/puppy4.jpg"
-    },
-    {
-      "id":5,
-      "name":"Fido",
-      "breed":"Labrador",
-      "owner":"Person",
-      "image":"/images/puppy5.png"
-    },
-    {
-      "id":6,
-      "name":"Fido",
-      "owner":"Person",
-      "image":"/images/puppy6.jpg",
-      "breed":"Labrador"
-    }
-  ]
+[
+  {
+    "id":1,
+    "name":"Han Solo",
+    "Lighsaber":"Ancient weapons are no matcher for a good blaster at your side, kid.",
+    "image":"/images/han.jpg",
+    "likes":"Money.",
+    "dislikes":"Carbonite.",
+    "lookingFor":"A fellow scoundrel.",
+    "quote":"Who’s the more foolish; the fool, or the fool who follows him?"
+  },
+  {
+    "id":2,
+    "name":"Yoda",
+    "Lighsaber":"Green",
+    "image":"/images/yoda.jpg",
+    "likes":"Odd looking food.",
+    "dislikes":"The dark side.",
+    "lookingFor":"A new padawan.",
+    "quote":"Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering"
+  },
+  {
+    "id":3,
+    "name":"Anakin Skywalker",
+    "Lighsaber":"Blue",
+    "image":"/images/anakin.jpg",
+    "likes":"Padme.",
+    "dislikes":"Younglings.",
+    "lookingFor":"Revenge.",
+    "quote":"If you're not with me, then you're my enemy."
+  },
+  {
+    "id":4,
+    "name":"Luke Skywalker",
+    "Lighsaber":"Blue",
+    "image":"/images/luke.jpg",
+    "likes":"",
+    "dislikes":".",
+    "lookingFor":"The force.",
+    "quote":""
+  },
+  {
+    "id":5,
+    "name":"Leia",
+    "Lighsaber":"Not for me.",
+    "image":"/images/leia.jpg",
+    "likes":"",
+    "dislikes":".",
+    "lookingFor":"A scoundrel.",
+    "quote":"Why, you stuck-up, half-witted, scruffy-looking nerf herder!"
+  },
+  {
+    "id":6,
+    "name":"Jyn Erso",
+    "Lighsaber":"Blue",
+    "image":"/images/anakin.jpg",
+    "likes":".",
+    "dislikes":"Orson Krennic.",
+    "lookingFor":"R.",
+    "quote":" If you're not with me, then you're my enemy."
+  },
+  {
+    "id":7,
+    "name":"Rey",
+    "Lighsaber":"Blue",
+    "image":"/images/rey.jpg",
+    "likes":"BB-8.",
+    "dislikes":"Kylo Ren.",
+    "lookingFor":"My family.",
+    "quote":"That one's garbage."
+  },
+  {
+    "id":8,
+    "name":"Padme Amidala",
+    "Lighsaber":"Nope",
+    "image":"/images/padme.jpg",
+    "likes":"Body doubles.",
+    "dislikes":"Younglings.",
+    "lookingFor":"Anakin.",
+    "quote":" I was not elected to watch my people suffer and die while you discuss this invasion in a committee! "
+  }
+]
