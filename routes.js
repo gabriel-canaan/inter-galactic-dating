@@ -1,5 +1,7 @@
 var express = require('express')
+var fs=require('fs')
 var people = require(`./data.json`)
+
 function createRouter(people) {
   var router = express.Router()
 
@@ -9,7 +11,11 @@ function createRouter(people) {
     })
   }
 
-
+  function saveFile(people, callback) {
+    fs.writeFile('./data.json', JSON.stringify(people), (err) => {
+      callback()
+    })
+  }
 
   router.get('/', (req, res) => {
     res.render('home', {people})
@@ -26,12 +32,13 @@ function createRouter(people) {
   })
 
   router.post('/people/edit/:id', (req, res) => {
-    // go through req.body to get code to post to JSON
-    // Needs to redirect back to /people/:id
-  })
-
-  router.post('/people/add', (req, res) => {
-    res.render('add')
+    person = findPeople(req.params.id)
+    for(key in req.body) {
+      person[key] = req.body[key]
+    }
+    saveFile(people, () => {
+        res.redirect(`/people/${person.id}`)
+      })
   })
 
   return router

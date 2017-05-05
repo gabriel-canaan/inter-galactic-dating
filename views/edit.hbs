@@ -1,0 +1,41 @@
+<form class="form" action="/people/edit/{{id}}" method="post">
+  <img class="img-circle" src="{{image}}" alt="{{name}}">
+  <label for="name" class="form-item">
+    Name:
+    <input type="text" name="name" value="{{name}}">
+  </label>
+
+  <label for="lightSaber" class="form-item">
+    Light Saber:
+    <input type="text" name="lightSaber" value="{{lightSaber}}">
+  </label>
+
+  <label for="likes" class="form-item">
+    Likes:
+    <input type="text" name="likes" value="{{likes}}">
+  </label>
+
+  <label for="dislikes" class="form-item">
+    Dislikes:
+    <input type="text" name="dislikes" value="{{dislikes}}">
+  </label>
+
+  <label for="lookingFor" class="form-item">
+    Looking For:
+    <input type="text" name="lookingFor" value="{{lookingFor}}">
+  </label>
+
+  <label for="planet" class="form-item">
+    Planet:
+    <input type="text" name="planet" value="{{planet}}">
+  </label>
+
+  <label for="quote" class="form-item">
+    Quote:
+    <input type="text" name="quote" value="{{quote}}">
+  </label>
+
+  <input type="hidden" name="image" value="{{image}}">
+
+  <input type="submit" name="" value="Submit">
+</form>
