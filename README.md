@@ -11,22 +11,22 @@ User story
 6. User can upload and update their own profile
 
 MVP
-Gallery page with a list of pictures
-Each photo leads to individual profiles
-Display profiles with information on each profile
-up and down vote / swipe or click light side, down side
+* Gallery page with a list of pictures
+* Each photo leads to individual profiles
+* Display profiles with information on each profile
+* up and down vote / swipe or click light side, down side
 
 Stretch
-Music / Sound effects
-Ability to Login
+* Music / Sound effects
+* Ability to Login
 
 Sttttttttttrreeeetttcccchhhhh
-Upload own profile
+* Upload own profile
 
 Learning objectives
 
-Alan - get better at testing
-Nat & Gabe - all aspects
+* Alan - get better at testing
+* Nat & Gabe - all aspects
 * Express router
 * CSS
 * Handlebars
