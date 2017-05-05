@@ -1,11 +1,12 @@
-var app = require('../server')
+var createServer = require('../server')
 var test = require('tape')
 var request = require('supertest')
 var fs = require('fs')
 var cheerio = require('cheerio')
+var people = require(`${__dirname}/data/sampleData.json`)
 
-// Need a sample data file
-// app.set('data-file', __dirname + '/sample-data.json')
+var app = createServer(people)
+
 
 test('Home Page', (t) => {
   request(app)
