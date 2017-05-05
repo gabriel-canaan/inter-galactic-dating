@@ -22,3 +22,11 @@ Ability to Login
 
 Sttttttttttrreeeetttcccchhhhh
 Upload own profile
+
+Learning objectives
+
+Alan - get better at testing
+Nat & Gabe - all aspects
+* Express router
+* CSS
+* Handlebars
