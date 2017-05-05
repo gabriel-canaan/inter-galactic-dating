@@ -7,6 +7,9 @@
     "likes":"Money.",
     "dislikes":"Carbonite.",
     "lookingFor":"A fellow scoundrel.",
+    "planet":"planet",
+    "lightVotes":0,
+    "darkVotes":0,
     "quote":"Who’s the more foolish; the fool, or the fool who follows him?"
   },
   {
@@ -17,6 +20,9 @@
     "likes":"Odd looking food.",
     "dislikes":"The dark side.",
     "lookingFor":"A new padawan.",
+    "planet":"planet",
+    "lightVotes":0,
+    "darkVotes":0,
     "quote":"Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering"
   },
   {
@@ -27,6 +33,9 @@
     "likes":"Padme.",
     "dislikes":"Younglings.",
     "lookingFor":"Revenge.",
+    "planet":"planet",
+    "lightVotes":0,
+    "darkVotes":0,
     "quote":"If you're not with me, then you're my enemy."
   },
   {
@@ -37,6 +46,9 @@
     "likes":"",
     "dislikes":".",
     "lookingFor":"The force.",
+    "planet":"planet",
+    "lightVotes":0,
+    "darkVotes":0,
     "quote":""
   },
   {
@@ -47,6 +59,9 @@
     "likes":"",
     "dislikes":".",
     "lookingFor":"A scoundrel.",
+    "planet":"planet",
+    "lightVotes":0,
+    "darkVotes":0,
     "quote":"Why, you stuck-up, half-witted, scruffy-looking nerf herder!"
   },
   {
@@ -57,6 +72,9 @@
     "likes":".",
     "dislikes":"Orson Krennic.",
     "lookingFor":"R.",
+    "planet":"planet",
+    "lightVotes":0,
+    "darkVotes":0,
     "quote":" If you're not with me, then you're my enemy."
   },
   {
@@ -67,6 +85,9 @@
     "likes":"BB-8.",
     "dislikes":"Kylo Ren.",
     "lookingFor":"My family.",
+    "planet":"planet",
+    "lightVotes":0,
+    "darkVotes":0,
     "quote":"That one's garbage."
   },
   {
@@ -77,6 +98,9 @@
     "likes":"Body doubles.",
     "dislikes":"Younglings.",
     "lookingFor":"Anakin.",
+    "planet":"planet",
+    "lightVotes":0,
+    "darkVotes":0,
     "quote":" I was not elected to watch my people suffer and die while you discuss this invasion in a committee! "
   }
 ]
