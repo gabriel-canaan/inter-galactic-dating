@@ -7,6 +7,12 @@ function createRouter(people) {
     return people.find((person) => id == people.id)
   }
 
+
+
+  router.get('/', (req, res) => {
+    res.render('home')
+  })
+
   router.get('/people/:id', (req, res) => {
     person = findPeople(req.params.id)
     res.render('show', person)
