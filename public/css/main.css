@@ -8,11 +8,17 @@ body {
   background-image: url("background.jpg");
   font-family: 'Spirax', cursive; Star Wars text
 }
-
 .logo {
   font-family: Starjedi;
   font-size: 64px;
+  color: yellow;
+
 }
+.tagLine{
+  font-family: Starjedi;
+  font-size: 44px;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
